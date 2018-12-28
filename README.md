@@ -26,7 +26,3 @@
 ## Ideas
 
 - Consider multi zones for separate parts of site: https://nextjs.org/docs/#multi-zones
-
-## Questions
-
-- client-side support for clean URLs? (as apposed to: https://nextjs.org/learn/basics/server-side-support-for-clean-urls/setup)
