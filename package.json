@@ -3,7 +3,9 @@
     "test": "exit 0",
     "prebuild": "npm run test",
     "build": "next build && next export -o dist",
-    "now-build": "echo 'Built on Travis CI'"
+    "now-build": "echo 'Built on Travis CI'",
+    "dev": "next",
+    "start": "next start"
   },
   "dependencies": {
     "next": "latest",
