@@ -2,15 +2,21 @@
 
 ## Tools
 
-- [Next](https://nextjs.org/docs/)
-- [Now](https://zeit.co/docs/v2/deployments/official-builders/next-js-now-next/)
-- [Travis CI](https://travis-ci.com/)
+- Client
+  - [React](https://reactjs.org/docs/)
+  - [Next](https://nextjs.org/docs/)
+  - [styled-components](https://www.styled-components.com/docs/)
+- Systems
+  - [Now](https://zeit.co/docs/v2/deployments/official-builders/next-js-now-next/)
+  - [Travis CI](https://travis-ci.com/)
+- Node Tools
+  - Babel
+  - Webpack (via next.config.js)
 
 ### To add
 
 - [Netlify CMS](https://www.netlifycms.org/)
 - redux? apollo?
-- styled-components
 - eslint
 - jest
 - enzyme
