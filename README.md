@@ -4,6 +4,7 @@
 
 - [Next](https://nextjs.org/docs/)
 - [Now](https://zeit.co/docs/v2/deployments/official-builders/next-js-now-next/)
+- [Travis CI](https://travis-ci.com/)
 
 ### To add
 

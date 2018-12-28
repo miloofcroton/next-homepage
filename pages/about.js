@@ -1,18 +1,12 @@
 import { Component } from 'react'
-import Link from 'next/link'
-import Header from '../components/header'
+import Layout from '../components/layout'
 
 class AboutPage extends Component {
   render() {
     return (
-      <main>
-        <Header />
-        <section>
-          <Link href="/">
-            <a>Go to Home</a>
-          </Link>
-        </section>
-      </main>
+      <Layout>
+        <p>This is the about page</p>
+      </Layout>
     )
   }
 }

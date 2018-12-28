@@ -1,13 +1,7 @@
-import Link from "next/link";
-import Header from "../components/header";
+import Layout from '../components/layout.js'
 
 export default () => (
-  <main>
-    <Header />
-    <section>
-      <Link href="/about">
-        <a>Go to About Me</a>
-      </Link>
-    </section>
-  </main>
-);
+  <Layout>
+    <p>This is the home page</p>
+  </Layout>
+)
