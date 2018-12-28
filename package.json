@@ -1,15 +1,21 @@
 {
+  "name": "next-homepage",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "Jack Toumey <jack@toumey.io>",
+  "license": "ISC",
   "scripts": {
     "test": "exit 0",
     "prebuild": "npm run test",
     "build": "next build && next export -o dist",
     "now-build": "echo 'Built on Travis CI'",
-    "dev": "next",
+    "dev": "next -p 8080",
     "start": "next start"
   },
   "dependencies": {
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest"
+    "next": "^7.0.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
   }
 }
