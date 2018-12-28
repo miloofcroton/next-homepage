@@ -4,5 +4,11 @@
   "alias": "www.toumey.io",
   "builds": [
   	{ "src": "package.json", "use": "@now/static-build" }
+  ],
+  "files": [
+    ".next",
+    "dist",
+    "package.json",
+    "package-lock.lock"
   ]
 }
