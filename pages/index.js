@@ -1,5 +1,6 @@
-import Layout from '../components/Layout.js'
-import Link from 'next/link'
+import React from 'react';
+import Layout from '../components/Layout.js';
+import Link from 'next/link';
 
 const PostLink = (props) => (
   <li>
@@ -7,9 +8,9 @@ const PostLink = (props) => (
       <a>{props.title}</a>
     </Link>
   </li>
-)
+);
 
-export default () => (
+const Home = () => (
   <Layout>
     <h1>My Blog</h1>
     <ul>
@@ -18,4 +19,6 @@ export default () => (
       <PostLink id="deploy-nextjs" title="Deploy apps with Zeit" />
     </ul>
   </Layout>
-)
+);
+
+export default Home;

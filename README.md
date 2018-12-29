@@ -12,16 +12,15 @@
 - Node Tools
   - Babel
   - Webpack (via next.config.js)
+  - ESLint
+  - Jest
+  - Enzyme
+  - prop-types
 
 ### To add
 
 - [Netlify CMS](https://www.netlifycms.org/)
 - redux? apollo?
-- eslint
-- jest
-- enzyme
-- react-helmet
-- prop-types
 
 ## Ideas
 

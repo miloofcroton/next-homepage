@@ -1,4 +1,6 @@
+import React from 'react';
 import styled from 'styled-components';
+
 import Header from './Header';
 
 const LayoutDiv = styled.div`
@@ -12,6 +14,6 @@ const Layout = (props) => (
     <Header />
     {props.children}
   </LayoutDiv>
-)
+);
 
 export default Layout;

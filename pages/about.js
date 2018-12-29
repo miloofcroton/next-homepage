@@ -1,5 +1,5 @@
-import { Component } from 'react'
-import Layout from '../components/Layout'
+import React, { Component } from 'react';
+import Layout from '../components/Layout';
 
 class AboutPage extends Component {
   render() {
@@ -7,8 +7,8 @@ class AboutPage extends Component {
       <Layout>
         <p>This is the about page</p>
       </Layout>
-    )
+    );
   }
 }
 
-export default AboutPage
+export default AboutPage;
