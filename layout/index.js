@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled, { ThemeProvider } from 'styled-components';
 
-import Meta from './Meta';
+import Head from './Head';
 import Header from './Header';
 
 import { theme, GlobalStyle } from './constants';
@@ -22,7 +22,7 @@ class Layout extends Component {
     return (
       <ThemeProvider theme={theme}>
         <LayoutDiv>
-          <Meta />
+          <Head />
           <GlobalStyle />
           <Header />
           <Inner>{this.props.children}</Inner>
