@@ -14,7 +14,7 @@ const LayoutDiv = styled.div`
 `;
 
 const Inner = styled.div`
-  margin: 0 auto;
+  margin: 0px auto;
 `;
 
 class Layout extends Component {

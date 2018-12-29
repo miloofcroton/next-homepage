@@ -1,11 +1,15 @@
-import React, { withRouter } from 'next/router';
-import Layout from '../components/Layout.js';
+import React, { Component, Fragment } from 'react';
 
-const Post = props => (
-  <Layout>
-    <h1>{props.url.query.title}</h1>
-    <p>This is the blog post content.</p>
-  </Layout>
-);
+class Post extends Component {
+
+  render() {
+    return (
+      <Fragment>
+        <h1>{this.props.query.title}</h1>
+        <p>This is the blog post content.</p>
+      </Fragment>
+    );
+  }
+}
 
 export default Post;
